@@ -273,13 +273,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // Establecer un idioma por defecto, por ejemplo Inglés
   setLanguage('en');
 
-  // Ejemplo de envío de formulario (simulado)
-  const form = document.querySelector('.contact-form');
-  if (form) {
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      alert('Form Submitted! (Simulated)');
-      form.reset();
-    });
-  }
+  // --> No bloqueamos el envío del formulario:
+  // (Se retira o comenta el preventDefault para permitir a Airform hacer su POST)
 });
