@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title data-i18n="pageTitle">Jetski Kings - Sea Adventure</title>
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Fuente (opcional) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
+</head>
+<body>
+  <!-- HEADER / NAV -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#home"><img src="img/jetskilogo.png" alt="Jetski Kings" /></a>
+      </div>
+
+      <!-- Menú de navegación -->
+      <ul class="nav-links">
+        <li><a href="#home" data-i18n="nav.home">Home</a></li>
+        <li><a href="#tours" data-i18n="nav.tours">Tours</a></li>
+        <li><a href="#about" data-i18n="nav.about">About Us</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+
+      <!-- Selector de idioma (banderas) -->
+      <div class="language-switch">
+        <a href="#" data-lang="es">
+          <img src="img/flags/es.png" alt="ES" class="flag-icon" />
+        </a>
+        <a href="#" data-lang="en">
+          <img src="img/flags/en.png" alt="EN" class="flag-icon" />
+        </a>
+        <a href="#" data-lang="de">
+          <img src="img/flags/de.png" alt="DE" class="flag-icon" />
+        </a>
+        <a href="#" data-lang="it">
+          <img src="img/flags/it.png" alt="IT" class="flag-icon" />
+        </a>
+      </div>
+
+      <div class="cta-button">
+        <a href="#contact" class="btn-cta" data-i18n="buttons.bookNow">Book Now</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1 data-i18n="hero.title">Jetski Kings</h1>
+        <p data-i18n="hero.subtitle">Experience the best sea adventure with our jet skis</p>
+        <a href="#tours" class="btn-hero" data-i18n="hero.button">View Tours</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOURS SECTION -->
+  <section id="tours" class="tours-section">
+    <div class="section-title">
+      <h2 data-i18n="tours.title">Our Tours</h2>
+      <p data-i18n="tours.subtitle">Discover amazing places in Mallorca and beyond</p>
+    </div>
+    <div class="tours-container">
+      <!-- TOUR CARD 1 -->
+      <div class="tour-card">
+        <img src="img/tour1.jpg" alt="Tour 1"/>
+        <div class="tour-info">
+          <h3 data-i18n="tours.card1Title">Coastal Tour</h3>
+          <p data-i18n="tours.card1Desc">
+            Enjoy an unforgettable ride along the coast, with stops for swimming and exploring hidden coves.
+          </p>
+          <a href="#contact" class="btn-primary" data-i18n="buttons.reserve">Reserve</a>
+        </div>
+      </div>
+      <!-- TOUR CARD 2 -->
+      <div class="tour-card">
+        <img src="img/tour2.jpg" alt="Tour 2"/>
+        <div class="tour-info">
+          <h3 data-i18n="tours.card2Title">Sunset on the Sea</h3>
+          <p data-i18n="tours.card2Desc">
+            Contemplate the sunset from a jet ski and live a magical moment in the Mediterranean.
+          </p>
+          <a href="#contact" class="btn-primary" data-i18n="buttons.reserve">Reserve</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT US SECTION -->
+  <section id="about" class="about-section">
+    <div class="about-content">
+      <h2 data-i18n="about.title">About Jetski Kings</h2>
+      <p data-i18n="about.paragraph1">
+        We are a company dedicated to offering unforgettable experiences in the Mediterranean Sea.
+        With more than <strong>10 years of experience</strong>, our professional team will guide
+        you through the best coastal spots.
+      </p>
+      <ul>
+        <li data-i18n="about.li1">Experienced and certified staff</li>
+        <li data-i18n="about.li2">Guaranteed safety and comfort</li>
+        <li data-i18n="about.li3">Multiple routes and schedules available</li>
+        <li data-i18n="about.li4">24/7 customer support</li>
+      </ul>
+      <p data-i18n="about.paragraph2">
+        Discover the thrill of riding a jet ski with us!
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT / BOOKING SECTION -->
+  <section id="contact" class="contact-section">
+    <div class="section-title">
+      <h2 data-i18n="contact.title">Contact & Reservations</h2>
+      <p data-i18n="contact.subtitle">Ready for adventure? Contact us or book below.</p>
+    </div>
+    <div class="contact-container">
+      <div class="contact-details">
+        <h3 data-i18n="contact.infoTitle">Contact Information</h3>
+        <p>
+          <strong data-i18n="contact.phoneLabel">Phone:</strong>
+          +34 123 456 789
+        </p>
+        <p>
+          <strong data-i18n="contact.emailLabel">Email:</strong>
+          info@jetskikings.com
+        </p>
+        <p>
+          <strong data-i18n="contact.addressLabel">Address:</strong>
+          Mallorca Port, Calle de la Mar s/n
+        </p>
+        <p data-i18n="contact.schedule">Opening Hours: Monday-Sunday, 9am - 8pm</p>
+      </div>
+
+      <form class="contact-form">
+        <label for="name" data-i18n="form.nameLabel">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required />
+
+        <label for="email" data-i18n="form.emailLabel">Email</label>
+        <input type="email" id="email" name="email" placeholder="email@example.com" required />
+
+        <label for="tour" data-i18n="form.tourLabel">Select a Tour</label>
+        <select id="tour" name="tour">
+          <option value="coastal" data-i18n="form.tourOption1">Coastal Tour</option>
+          <option value="sunset" data-i18n="form.tourOption2">Sunset on the Sea</option>
+        </select>
+
+        <label for="message" data-i18n="form.messageLabel">Message / Special Requests</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <button type="submit" data-i18n="buttons.send">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <p>
+        <span data-i18n="footer.copyright">
+          &copy; 2025 Jetski Kings. All Rights Reserved.
+        </span>
+      </p>
+      <p data-i18n="footer.design">Designed by [Alex / AFRM Studio]</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
