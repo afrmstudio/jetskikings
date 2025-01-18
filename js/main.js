@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         send: "Enviar"
       },
       hero: {
-        title: "Jetski Kings",
+        title: "Alquila un Jetski",
         subtitle: "Vive la mejor experiencia en el mar con nuestras motos de agua",
         button: "Ver Tours"
       },
@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
         send: "Send"
       },
       hero: {
-        title: "Jetski Kings",
+        title: "Rent a Jetski",
         subtitle: "Experience the best sea adventure with our jet skis",
         button: "View Tours"
       },
@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
         send: "Senden"
       },
       hero: {
-        title: "Jetski Kings",
+        title: "Jetski-Verleih",
         subtitle: "Erlebe das beste Abenteuer auf dem Meer mit unseren Jetskis",
         button: "Touren ansehen"
       },
@@ -189,7 +189,7 @@ document.addEventListener('DOMContentLoaded', () => {
         send: "Invia"
       },
       hero: {
-        title: "Jetski Kings",
+        title: "Noleggia un Jetski",
         subtitle: "Vivi la migliore esperienza in mare con le nostre moto d'acqua",
         button: "Vedi i Tour"
       },
