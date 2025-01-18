@@ -143,10 +143,12 @@
         action="https://airform.io/info@afrmstudio.it" 
         method="POST"
       >
-        <!-- (Opcional) Redirección en caso de éxito -->
-        <input type="hidden" 
+        <!-- Redirección tras envío exitoso -->
+        <input 
+          type="hidden" 
           name="_redirect" 
-          value="https://afrmstudio.github.io/jetskikings/thanks.html" /> 
+          value="https://afrmstudio.github.io/jetskikings/thanks.html" 
+        />
 
         <label for="name" data-i18n="form.nameLabel">Name</label>
         <input type="text" id="name" name="name" placeholder="Your name" required />
