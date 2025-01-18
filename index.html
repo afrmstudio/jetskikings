@@ -137,7 +137,15 @@
         <p data-i18n="contact.schedule">Opening Hours: Monday-Sunday, 9am - 8pm</p>
       </div>
 
-      <form class="contact-form">
+      <!-- FORMULARIO CON INTEGRACIÓN DE AIRFORM.IO -->
+      <form 
+        class="contact-form"
+        action="https://api.airform.io/info@afrmstudio.it" 
+        method="POST"
+      >
+        <!-- (Opcional) Redirección en caso de éxito -->
+        <!-- <input type="hidden" name="_redirect" value="https://tusitioweb.com/thanks.html" /> -->
+
         <label for="name" data-i18n="form.nameLabel">Name</label>
         <input type="text" id="name" name="name" placeholder="Your name" required />
 
@@ -166,7 +174,7 @@
           &copy; 2025 Jetski Kings. All Rights Reserved.
         </span>
       </p>
-      <p data-i18n="footer.design">Designed by [Alex / AFRM Studio]</p>
+      <p data-i18n="footer.design">Designed by [AFRM Studio]</p>
     </div>
   </footer>
 
